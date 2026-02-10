@@ -8,6 +8,8 @@ import Login from "./Component/Login"
 import Error from "./Component/Error"
 import Shows from "./Component/Shows"
 import Watch from "./Component/Watch"
+import InputHandler from "./Component/InputHandler"
+import Employee from "./Component/propsExample/Employee"
 function App() {
 
 
@@ -17,11 +19,13 @@ function App() {
      <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/input-handler" element={<InputHandler/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/feedback" element={<Feedback/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/shows" element={<Shows/>}/>
         <Route path="/watch/:name" element={<Watch/>}/>
+        <Route path="/employee" element={<Employee/>}/>
         <Route path="/*" element={<Error/>}/>
      </Routes>
     </>
