@@ -10,6 +10,9 @@ import Shows from "./Component/Shows"
 import Watch from "./Component/Watch"
 import InputHandler from "./Component/InputHandler"
 import Employee from "./Component/propsExample/Employee"
+import FormHandling from "./Component/React Form Hook/FormHandling"
+import StudentForm from "./Component/React Form Hook/StudentForm"
+import FormValidation1 from "./Component/Form Validation/FormValidation1"
 function App() {
 
 
@@ -26,6 +29,9 @@ function App() {
         <Route path="/shows" element={<Shows/>}/>
         <Route path="/watch/:name" element={<Watch/>}/>
         <Route path="/employee" element={<Employee/>}/>
+        <Route path="/formHandling" element={<FormHandling/>}/>
+        <Route path="/student-form" element={<StudentForm/>}/>
+        <Route path="/formValidation1" element={<FormValidation1/>}/>
         <Route path="/*" element={<Error/>}/>
      </Routes>
     </>

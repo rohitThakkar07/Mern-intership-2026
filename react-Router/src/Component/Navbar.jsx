@@ -15,7 +15,7 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <Link  className="navbar-brand" to="/shows">Shows</Link>
                         </li>
                         <li className="nav-item active">
@@ -29,7 +29,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="navbar-brand"  to="/feedback">Feedback</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="navbar-brand"  to="/login">Login</Link>
                         </li>
@@ -38,6 +38,15 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="navbar-brand"  to="/employee">EmployeeProps</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="navbar-brand"  to="/formHandling">Form Handling</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="navbar-brand"  to="/student-form">Student Form</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="navbar-brand"  to="/formValidation1">Form Validation</Link>
                         </li>
                     </ul>
                 </div>
